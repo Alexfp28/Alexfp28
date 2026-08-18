@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f4c75&height=220&section=header&text=Hi%20There,%20I'm%20Alex%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20%26%20Full-Stack%20Developer&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f4c75&height=220&section=header&text=Hi%20There,%20I'm%20Alex%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20%2B%20Full-Stack%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://github.com/alexfp28">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=4FC3F7&center=true&vCenter=true&width=650&lines=Building+backend+systems+with+Spring+Boot+%26+Java;Full-stack+apps+with+Vue.js+%26+Angular;Exploring+Python+%F0%9F%90%8D;Always+shipping%2C+always+learning+%E2%9A%A1" alt="Typing SVG" />
