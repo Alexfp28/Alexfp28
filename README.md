@@ -65,7 +65,7 @@ alex:
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=alexfp28&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=alexfp28&theme=tokyonight&hide_border=true"/>
+<img height="165" src="https://streak-stats.demolab.com/?user=alexfp28&theme=tokyonight&hide_border=true"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexfp28&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact"/>
 
