@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f4c75&height=220&section=header&text=Hi%20There,%20I'm%20Alex%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20%2B%20Full-Stack%20Developer&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f4c75&height=220&section=header&text=Hi%20There,%20I'm%20Alex%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20%2B%20Full-Stack%20Developer&descAlignY=55&descSize=18" alt="Hi there, I'm Alex - Backend and Full-Stack Developer" width="100%"/>
 
 <a href="https://github.com/alexfp28">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=4FC3F7&center=true&vCenter=true&width=650&lines=Building+backend+systems+with+Spring+Boot+%26+Java;Full-stack+apps+with+Vue.js+%26+Angular;Exploring+Python+%F0%9F%90%8D;Always+shipping%2C+always+learning+%E2%9A%A1" alt="Typing SVG" />
@@ -64,28 +64,19 @@ alex:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=alexfp28&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github"/>
-<img height="165" src="https://streak-stats.demolab.com/?user=alexfp28&theme=tokyonight&hide_border=true"/>
+<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-stats.svg" alt="GitHub stats, most used languages and achievements" width="55%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexfp28&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact"/>
+<img height="165" src="https://streak-stats.demolab.com/?user=alexfp28&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 
 </div>
 
 <br>
 
-## 🏆 Trophies
-
-<div align="center">
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=alexfp28&theme=tokyonight&no-frame=true&row=1&margin-w=15&column=7)
-
-</div>
-
 ## 📈 Contribution Activity
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=alexfp28&theme=tokyo-night&hide_border=true&area=true)
+<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-calendar.svg" alt="Isometric contribution calendar" width="60%" />
 
 </div>
 
@@ -105,4 +96,4 @@ alex:
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f4c75,50:2c5364,100:0f2027&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f4c75,50:2c5364,100:0f2027&height=120&section=footer" alt="" width="100%"/>
