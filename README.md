@@ -64,20 +64,9 @@ alex:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-stats.svg" alt="GitHub stats" width="47%" />
-<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-languages.svg" alt="Most used languages" width="47%" />
+<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-stats.svg" alt="GitHub stats, most used languages and achievements" width="55%" />
 
 <img height="165" src="https://streak-stats.demolab.com/?user=alexfp28&theme=tokyonight&hide_border=true" alt="Contribution streak" />
-
-</div>
-
-<br>
-
-## 🏆 Achievements
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-achievements.svg" alt="GitHub achievements" width="60%" />
 
 </div>
 
@@ -87,7 +76,7 @@ alex:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-calendar.svg" alt="Contribution calendar" width="60%" />
+<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-calendar.svg" alt="Isometric contribution calendar" width="60%" />
 
 </div>
 
