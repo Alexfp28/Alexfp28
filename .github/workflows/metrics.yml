@@ -12,15 +12,22 @@ on:
 permissions:
   contents: write
 
+# Two runs committing to the metrics branch at once would fight over it.
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      # Languages and achievements are derived from the base repositories
-      # content, so they have to live on the card that enables it. Rendering
-      # them with `base: ""` produced "0 Languages" and an error card.
+      # Languages is derived from the base repositories content, so it has to
+      # live on the card that enables it - with `base: ""` it rendered
+      # "0 Languages".
       - name: Stats card
         uses: lowlighter/metrics@latest
+        timeout-minutes: 8
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: alexfp28
@@ -38,13 +45,11 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
 
       # isocalendar runs its own contributions query, so it needs no base data.
       - name: Contribution calendar
         uses: lowlighter/metrics@latest
+        timeout-minutes: 8
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: alexfp28
@@ -58,3 +63,25 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      # Kept isolated and non-blocking: this plugin errored out on its own and
+      # is the prime suspect for the run that hung for 13 minutes. It is not
+      # referenced from the README until it is proven to render correctly.
+      - name: Achievements (isolated)
+        uses: lowlighter/metrics@latest
+        timeout-minutes: 5
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: alexfp28
+          filename: metrics-achievements.svg
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "Update ${filename}"
+          config_timezone: Europe/Madrid
+          config_theme: dark
+          plugins_errors_fatal: yes
+          base: repositories
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
