@@ -21,8 +21,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: alexfp28
-          filename: dist/metrics-stats.svg
-          output_action: none
+          filename: metrics-stats.svg
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "Update ${filename}"
           config_timezone: Europe/Madrid
           config_theme: dark
           base: header, repositories
@@ -34,8 +36,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: alexfp28
-          filename: dist/metrics-languages.svg
-          output_action: none
+          filename: metrics-languages.svg
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "Update ${filename}"
           config_timezone: Europe/Madrid
           config_theme: dark
           base: ""
@@ -49,8 +53,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: alexfp28
-          filename: dist/metrics-achievements.svg
-          output_action: none
+          filename: metrics-achievements.svg
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "Update ${filename}"
           config_timezone: Europe/Madrid
           config_theme: dark
           base: ""
@@ -64,21 +70,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: alexfp28
-          filename: dist/metrics-calendar.svg
-          output_action: none
+          filename: metrics-calendar.svg
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "Update ${filename}"
           config_timezone: Europe/Madrid
           config_theme: dark
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-      - name: List generated files
-        run: ls -la dist/
-
-      - name: Push metrics svg to the metrics branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: metrics
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
