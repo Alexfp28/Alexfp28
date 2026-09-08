@@ -57,14 +57,14 @@ jobs:
           plugin_lines: yes
           plugin_lines_sections: base
 
-      # The default most-used path reports "0 Languages" even with base
-      # repositories data present and nothing ignored or skipped, so this uses
-      # indepth mode instead: it clones the repositories and analyses them
-      # locally rather than relying on the GraphQL languages field. Isolated
-      # and non-blocking, and not referenced from the README until it renders.
+      # indepth mode reported "No push activity found" - it analyses public
+      # push events, and there are none to work from. Back to the standard
+      # most-used path, with base repositories data present, changing one
+      # variable: forks are included. With them excluded the analysed set can
+      # legitimately be empty, which matches the exact zero.
       - name: Top languages (isolated)
         uses: lowlighter/metrics@latest
-        timeout-minutes: 15
+        timeout-minutes: 8
         continue-on-error: true
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
@@ -76,9 +76,9 @@ jobs:
           config_timezone: Europe/Madrid
           config_theme: dark
           plugins_errors_fatal: yes
-          base: ""
+          repositories_forks: yes
+          base: header, repositories
           plugin_languages: yes
-          plugin_languages_indepth: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
