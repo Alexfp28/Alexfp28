@@ -1,58 +1,72 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:0f4c75&height=220&section=header&text=Hi%20There,%20I'm%20Alex%20%F0%9F%91%8B&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20%2B%20Full-Stack%20Developer&descAlignY=55&descSize=18" alt="Hi there, I'm Alex - Backend and Full-Stack Developer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E1014,55:171A21,100:5C4313&height=220&section=header&text=Hola,%20soy%20Alex%20%F0%9F%91%8B&fontSize=40&fontColor=E9ECF1&animation=fadeIn&fontAlignY=35&desc=Kodemaru%20%C2%B7%20IA%20y%20programaci%C3%B3n&descAlignY=55&descSize=18" alt="Hola, soy Alex. Kodemaru, IA y programación" width="100%"/>
 
-<a href="https://github.com/alexfp28">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=4FC3F7&center=true&vCenter=true&width=650&lines=Building+backend+systems+with+Spring+Boot+%26+Java;Full-stack+apps+with+Vue.js+%26+Angular;Exploring+Python+%F0%9F%90%8D;Always+shipping%2C+always+learning+%E2%9A%A1" alt="Typing SVG" />
+<a href="https://github.com/Kodemaru">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=F5B841&center=true&vCenter=true&width=650&lines=Programo+y+trasteo+con+IA+%F0%9F%A4%96;Construyendo+huginnDB+en+abierto;Resolviendo+puzles+de+c%C3%B3digo+%F0%9F%A7%A9;Lo+bueno%2C+lo+malo+y+lo+que+aprendo+%E2%9A%A1" alt="Programo y trasteo con IA. Construyendo huginnDB en abierto. Resolviendo puzles de código. Lo bueno, lo malo y lo que aprendo." />
 </a>
 
 </div>
 
 <br>
 
-## 💫 About Me
+## 💫 Sobre mí
+
+Me flipan los puzles que tiene esto de programar: ese problema que no sale, que no sale…
+y de repente sale. Aquí dejo lo que voy construyendo, casi todo en abierto, y en
+Instagram cuento el día a día de cómo lo hago.
 
 ```yaml
 alex:
-  role: "Backend & Full-Stack Developer"
-  currently_working_on: "ITBacking"
-  currently_learning: "Python"
-  ask_me_about: ["Spring Boot", "Java", "Angular", "Vue.js"]
-  fun_fact: "I ship, I refactor, I ship again 🚀"
+  alias: "Kodemaru"
+  role: "Full-Stack Developer que trastea con IA"
+  building: "huginnDB"
+  ask_me_about: ["IA y MCP", "Tauri + React", "Spring Boot", "Angular", "Vue.js"]
+  fun_fact: "Si un bug me deja dormir, es que no era tan grave 🧩"
 ```
 
 <br>
 
-## 🌐 Connect With Me
+## 🧩 En lo que estoy
+
+**[huginnDB](https://github.com/Kodemaru/huginnDB)**: un gestor de bases de datos de
+escritorio para PostgreSQL, MySQL, SQLite, MongoDB y SQL Server, hecho con Tauri + React.
+Pensado para usarse con el teclado, con Monaco en todas partes y con `huginndb-mcp`, un
+conector para que tu IA consulte tus bases de datos. MIT.
+
+<br>
+
+## 🌐 Dónde más me encuentras
 
 <div align="center">
 
+[![Instagram](https://img.shields.io/badge/Instagram-%40kodemaru.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/kodemaru.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-l%C3%B3pez-62b2222a0/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alexfp28)
+[![GitHub](https://img.shields.io/badge/GitHub-Kodemaru-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kodemaru)
 
-![Profile Views](https://komarev.com/ghpvc/?username=alexfp28&color=2c5364&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=Kodemaru&color=F5B841&style=for-the-badge&label=VISITAS)
 
 </div>
 
 <br>
 
-## 💻 Tech Stack
+## 💻 Con lo que trabajo
 
 <div align="center">
 
-**Languages**
+**Lenguajes**
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-**Frameworks & Libraries**
+**Frameworks y librerías**
 
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-**Databases**
+**Bases de datos**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-**Tools & DevOps**
+**Herramientas y DevOps**
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Mosquitto](https://img.shields.io/badge/mosquitto-%233C5280.svg?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
 
@@ -60,40 +74,44 @@ alex:
 
 <br>
 
-## 📊 GitHub Stats
+## 📊 Estadísticas
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-stats.svg" alt="GitHub stats, most used languages and achievements" width="55%" />
+<img src="https://raw.githubusercontent.com/Kodemaru/Kodemaru/metrics/metrics-stats.svg" alt="Estadísticas de GitHub" width="55%" />
 
-<img height="165" src="https://streak-stats.demolab.com/?user=alexfp28&theme=tokyonight&hide_border=true" alt="Contribution streak" />
+<img height="165" src="https://streak-stats.demolab.com/?user=Kodemaru&theme=tokyonight&hide_border=true&ring=F5B841&fire=F5B841&currStreakLabel=F5B841" alt="Racha de contribuciones" />
 
 </div>
 
 <br>
 
-## 📈 Contribution Activity
+## 📈 Actividad
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alexfp28/alexfp28/metrics/metrics-calendar.svg" alt="Isometric contribution calendar" width="60%" />
+<img src="https://raw.githubusercontent.com/Kodemaru/Kodemaru/metrics/metrics-calendar.svg" alt="Calendario isométrico de contribuciones" width="60%" />
 
 </div>
 
 <br>
 
-## 🐍 Contribution Snake
+## 🐍 La serpiente de contribuciones
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alexfp28/alexfp28/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alexfp28/alexfp28/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/alexfp28/alexfp28/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kodemaru/Kodemaru/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kodemaru/Kodemaru/output/github-contribution-grid-snake.svg" />
+  <img alt="Animación de la serpiente de contribuciones" src="https://raw.githubusercontent.com/Kodemaru/Kodemaru/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f4c75,50:2c5364,100:0f2027&height=120&section=footer" alt="" width="100%"/>
+<div align="center">
+<sub>Lo bueno, lo malo y lo que aprendo. Si algo de aquí te sirve, una ⭐ siempre se agradece.</sub>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5C4313,45:171A21,100:0E1014&height=120&section=footer" alt="" width="100%"/>

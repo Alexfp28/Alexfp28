@@ -27,7 +27,7 @@ jobs:
         timeout-minutes: 8
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: alexfp28
+          user: Kodemaru
           filename: metrics-calendar.svg
           output_action: commit
           committer_branch: metrics
@@ -44,7 +44,7 @@ jobs:
         timeout-minutes: 8
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: alexfp28
+          user: Kodemaru
           filename: metrics-stats.svg
           output_action: commit
           committer_branch: metrics
